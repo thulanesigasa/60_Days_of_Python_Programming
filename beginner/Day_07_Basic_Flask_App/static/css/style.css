@@ -1,0 +1,116 @@
+/* Custom Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212; /* 60% Black Background */
+    color: #F8FAFC; /* 10% White Accent text */
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #FFFFFF; /* Pure White Accent */
+    margin-bottom: 8px;
+    letter-spacing: -0.025em;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #2563EB; /* 20% Blue Accent */
+    font-weight: 600;
+}
+
+/* Card Container (Secondary 20% Blue Background/Borders) */
+.card {
+    background-color: #1E293B; /* Deep Slate/Blue Secondary */
+    border: 2px solid #1E3A8A; /* Cobalt Blue Border */
+    border-radius: 12px;
+    padding: 35px 25px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+    margin-bottom: 25px;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #94A3B8;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* Color Harmonized Metric Grid */
+.metrics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.metric-item {
+    background-color: #121212; /* Black background matching core theme */
+    border: 1px solid #1E3A8A;
+    border-radius: 8px;
+    padding: 15px 10px;
+}
+
+.metric-value {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #2563EB; /* Blue highlight */
+    margin-bottom: 4px;
+}
+
+.metric-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #E2E8F0; /* White/Gray labels */
+}
+
+/* Button styled in Blue with White text */
+.btn {
+    display: inline-block;
+    background-color: #1E3A8A;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #2563EB;
+}
+
+footer p {
+    font-size: 0.8rem;
+    color: #64748B;
+}

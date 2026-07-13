@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 7: Basic Flask App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">Day 7 Flask Application</h1>
+            <p class="subtitle">A web dashboard built under the 60-20-10 GUI theme rule.</p>
+        </header>
+        
+        <main class="card">
+            <h2>Welcome to Antigravity Dashboard</h2>
+            <p>This web interface uses vanilla CSS to demonstrate strict layout color harmony:</p>
+            <div class="metrics">
+                <div class="metric-item">
+                    <span class="metric-value">60%</span>
+                    <span class="metric-label">Dominant Black</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-value">20%</span>
+                    <span class="metric-label">Secondary Blue</span>
+                </div>
+                <div class="metric-item">
+                    <span class="metric-value">10%</span>
+                    <span class="metric-label">Accent White</span>
+                </div>
+            </div>
+            <a href="https://github.com/thulanesigasa/60_Days_of_Python_Programming" target="_blank" class="btn">Explore Repository</a>
+        </main>
+        
+        <footer>
+            <p>Created with ❤️ by Antigravity</p>
+        </footer>
+    </div>
+</body>
+</html>
