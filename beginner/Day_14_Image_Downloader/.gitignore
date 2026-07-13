@@ -1,0 +1,8 @@
+﻿__pycache__/
+*.py[cod]
+*.class
+downloads/
+*.png
+*.jpg
+*.jpeg
+*.gif
